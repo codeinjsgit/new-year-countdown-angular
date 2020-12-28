@@ -1,11 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
 
-interface Timer {
-  id: string;
-  value: string;
-}
-
 interface Countdown {
   day: string,
   hour: string,
